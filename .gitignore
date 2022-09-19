@@ -1,0 +1,25 @@
+# Ignore Mac hidden files
+.DS_Store
+
+# Ignore Snakemake hidden files
+.snakemake/
+
+# Ignore shadow hidden files made for every file
+._*
+
+# Ignore symlink to ADMIXTURE binary
+bin/admixture
+
+# Ignore temp directory
+tmp/
+
+# Ignore plotting scripts
+Rplots.pdf
+scripts/plotting
+scripts/plotting/*
+
+# Ignore results directory
+results/
+
+# Ignore pycache
+scripts/__pycache__

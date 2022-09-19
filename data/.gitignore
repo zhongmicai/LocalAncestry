@@ -1,0 +1,7 @@
+# Ignore everything, except this file and map directory
+*
+!.gitignore
+!maps
+maps/._*
+!maps/chrom_centromere.map
+!maps/plink.GRCh38.genetic_map.zip
